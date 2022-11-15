@@ -60,4 +60,5 @@ print(self_attention_image.shape)
 Special thanks to Matician for allowing me to expose this library, and to my internal reviewers Navneet Dalal, Rowan Dempster, and Oishi Banerjee.
 
 Features coming soon (once I find that branch...): gather, scatter, fancy indexing
+
 Potential features: convolutions
