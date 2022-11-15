@@ -459,7 +459,7 @@ class NamedShape:
         Returns:
             NamedShape: Copy of {self} with dimension moved to target index.
         """
-        res_dims = list(filter(lambda d: d != dim), self.dims)
+        res_dims = list(filter(lambda d: d != dim, self.dims))
         if idx < 0:
             idx += (self.ndim + 1)
         res_dims.insert(idx, dim)
